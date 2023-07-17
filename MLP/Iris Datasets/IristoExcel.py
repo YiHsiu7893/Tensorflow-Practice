@@ -1,6 +1,7 @@
 """
 brief intro.
-executing this code produces two by-product files, iris.csv and iris.xlsx
+此程式的目的為轉換鳶尾花資料至Excel檔
+程式執行後會得到 iris.csv 和 iris.xlsx 兩個檔案
 """
 import numpy as np
 from sklearn import datasets
