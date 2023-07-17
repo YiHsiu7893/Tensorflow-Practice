@@ -5,11 +5,14 @@ Reference book: "TensorFlow 2.x人工智慧、機器學習超炫範例200+", pub
 
 The codes are not the same as the samples in the book. I have modified a piece of code according to my habits.
 
-
-
+---
 Note: steps of training a MLP model
 1. collecting required data
 2. preprocessing features or labels if needed
 3. building a MLP model
 4. compiling and training the model
 5. testing the model and output the results
+
+---
+Contents
+- IristoExcel -  turning the data of Iris to an Excel file
