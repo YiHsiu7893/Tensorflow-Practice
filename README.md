@@ -6,6 +6,16 @@ Reference book: "TensorFlow 2.x人工智慧、機器學習超炫範例200+", pub
 The codes are not the same as the samples in the book. I have modified a piece of code according to my habits.
 
 ---
+Contents
+- MLP_Iris.py
+- IristoExcel.py
+- iris.csv
+- iris.xlsx
+- MLP_Start.py
+- MLP_OneHot.py
+- MLP_MultiInput.py
+
+---
 Note: steps of training a MLP model
 1. collecting required data
 2. preprocessing features or labels if needed
@@ -14,7 +24,4 @@ Note: steps of training a MLP model
 5. testing the model and output the results
 
 ---
-Contents
-- IristoExcel.py -  turning the data of Iris to an Excel file
-- iris.csv - by-product csv file created during the execution of IristoExcel.py
-- iris.xlsx - by-product excel file created during the execution of IristoExcel.py
+Note: ways to improve accuracy of a model
