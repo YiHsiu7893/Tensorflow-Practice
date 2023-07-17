@@ -22,7 +22,7 @@ Note: steps of training a MLP model
 3. building a MLP model
 4. compiling and training the model
 5. testing and evaluating the ability of the model
-6. predicting with the trained model
+6. predicting new data with the trained model
 
 ---
 Note: approaches to improve accuracy of a model
