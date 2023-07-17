@@ -1,3 +1,10 @@
+"""
+brief intro.
+此範例為練習在更複雜的輸入下，如何調整各變因以改善預測結果
+定義函式CreateDatasets()，方便迅速建立需要的多筆資料
+輸入的訓練特徵為1000*2的二維資料，共10種標籤
+*apply One-Hot Encoding
+"""
 import tensorflow as tf
 import numpy as np
 
