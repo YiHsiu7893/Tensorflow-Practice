@@ -1,3 +1,7 @@
+"""
+brief intro.
+executing this code produces two by-product files, iris.csv and iris.xlsx
+"""
 import numpy as np
 from sklearn import datasets
 from sklearn.neighbors import KNeighborsClassifier
