@@ -15,4 +15,6 @@ Note: steps of training a MLP model
 
 ---
 Contents
-- IristoExcel -  turning the data of Iris to an Excel file
+- IristoExcel.py -  turning the data of Iris to an Excel file
+- Iris.csv - by-product csv file created during the execution of IristoExcel.py
+- Iris.xlsx - by-product excel file created during the execution of IristoExcel.py
