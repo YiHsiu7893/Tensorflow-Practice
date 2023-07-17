@@ -1,3 +1,9 @@
+"""
+brief intro.
+與MLP_Start.py差不多，但此範例將標籤做了單熱編碼預處理
+One-Hot Encoding係指將標籤轉換為二進制變量，優點是增進模型處理效率
+*使用One-Hot Encoding亦須修改loss參數
+"""
 import tensorflow as tf
 import numpy as np
 
@@ -20,7 +26,7 @@ model = tf.keras.models.Sequential([
 
 # 編譯模型
 model.compile(optimizer='adam',
-              loss=tf.keras.losses.categorical_crossentropy,
+              loss=tf.keras.losses.categorical_crossentropy,  # loss使用多分類別損失函式
               metrics=['accuracy'])
 
 # 訓練模型
