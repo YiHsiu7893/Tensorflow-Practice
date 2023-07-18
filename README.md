@@ -16,7 +16,7 @@ The codes are not the same as the samples in the book. I have modified a piece o
 - iris.xlsx - by-product Excel file created during the execution of IristoExcel.py
 - MLP_Iris.py - a practical case training models to distinguish various iris flower species
 
-## Note
+## Notes
 ### steps of training a MLP model
 1. collecting required data
 2. preprocessing features or labels if needed
