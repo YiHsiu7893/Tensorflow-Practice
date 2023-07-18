@@ -6,7 +6,7 @@ Reference book: "TensorFlow 2.x人工智慧、機器學習超炫範例200+", pub
 The codes are not the same as the samples in the book. I have modified a piece of code according to my habits.
 
 ---
-Contents
+### Contents
 - MLP_Start.py - the first MLP model I constructed
 - MLP_OneHot.py - same as MLP_start.py, but apply OneHot-Encoding on labels
 - MLP_MultiInput.py - a more complex structured model, adjust different variables to see the ability of the model
@@ -18,7 +18,7 @@ Contents
 - MLP_Iris.py - a practical case training models to distinguish various iris flower species
 
 ---
-Note: steps of training a MLP model
+### Note: steps of training a MLP model
 1. collecting required data
 2. preprocessing features or labels if needed
 3. building a MLP model
@@ -27,7 +27,7 @@ Note: steps of training a MLP model
 6. predicting new data with the trained model
 
 ---
-Note: approaches to improve accuracy of a model
+### Note: approaches to improve accuracy of a model
 1. adjust "epochs"
 2. adjust "batch_size"
 3. increase the number of neurons "units"
