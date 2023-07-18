@@ -1,3 +1,7 @@
+"""
+a practical case of applying a MLP model 
+load Iris dataset and try to distinguish various species
+"""
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
