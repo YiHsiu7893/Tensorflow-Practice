@@ -7,13 +7,15 @@ The codes are not the same as the samples in the book. I have modified a piece o
 
 ---
 Contents
-- MLP_Iris.py
-- IristoExcel.py
-- iris.csv
-- iris.xlsx
-- MLP_Start.py
-- MLP_OneHot.py
-- MLP_MultiInput.py
+- MLP_Start.py - the first MLP model I constructed
+- MLP_OneHot.py - same as MLP_start.py, but apply OneHot-Encoding on labels
+- MLP_MultiInput.py - a more complex structured model, adjust to see the ability of the model
+- SimpleSL.py - simulate the model on "TensorFlow Playground", and visualize weights and biases of the neuron
+- MultiSL.py - same as SimpleSL.py, but with multiple neurons in the hidden layer
+- IristoExcel.py - turn Iris dateset to an Excel file
+- iris.csv - by-product csv file created during the execution of IristoExcel.py
+- iris.xlsx - by-product Excel file created during the execution of IristoExcel.py
+- MLP_Iris.py - real case
 
 ---
 Note: steps of training a MLP model
