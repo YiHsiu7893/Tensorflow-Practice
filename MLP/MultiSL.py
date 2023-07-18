@@ -1,3 +1,8 @@
+"""
+同SimpleSL.py
+此範例的隱藏層有多個神經元，故繪出的迴歸線不只一條
+*並非每個神經元都能成功區分資料，而演算法會以正確率高的神經元為主
+"""
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
