@@ -1,3 +1,8 @@
+"""
+模擬神經網路圖形工具"TensorFlow Playground"
+觀察模型訓練後各神經元的權重與偏移量，並繪出迴歸線(區分不同類型的分隔線)
+*每次計算出的最佳解可能不同
+"""
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
