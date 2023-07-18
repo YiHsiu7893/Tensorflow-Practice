@@ -15,7 +15,7 @@ Contents
 - IristoExcel.py - turn Iris dateset to an Excel file
 - iris.csv - by-product csv file created during the execution of IristoExcel.py
 - iris.xlsx - by-product Excel file created during the execution of IristoExcel.py
-- MLP_Iris.py - real case
+- MLP_Iris.py - a practical case training models to distinguish various iris flower species
 
 ---
 Note: steps of training a MLP model
