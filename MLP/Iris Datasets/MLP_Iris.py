@@ -1,6 +1,7 @@
 """
-a practical case of applying a MLP model 
-load Iris dataset and try to distinguish various species
+brief intro.
+運用MLP模型的實戰範例
+載入鳶尾花資料集，並訓練一個能夠分辨鳶尾花種類的模型
 """
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
