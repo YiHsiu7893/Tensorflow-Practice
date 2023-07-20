@@ -1,3 +1,8 @@
+"""
+brief intr.
+訓練一個鳶尾花分類模型
+利用histroy記錄訓練過程，觀察模型的有效性
+"""
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
