@@ -15,7 +15,8 @@ The codes are not the same as the samples in the book. I have modified a piece o
 - iris.csv - by-product csv file created during the execution of IristoExcel.py
 - iris.xlsx - by-product Excel file created during the execution of IristoExcel.py
 - MLP_Iris.py - a practical case training models to distinguish various iris flower species
-- MLP_History.py - observe the accuracy and loss history of model training
+- MLP_History.py - observe the accuracy and loss history during the model training
+- MLP_Optimizer.py - apply different optimizers, comparing the accuracy history of each
 
 ## Notes
 ### steps of training a MLP model
