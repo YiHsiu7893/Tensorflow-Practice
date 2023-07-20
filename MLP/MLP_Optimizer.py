@@ -1,3 +1,10 @@
+"""
+brief intro.
+以各種最佳化方式訓練鳶尾花分類模型
+將所有最佳化方式的訓練過程繪製在同一張圖表上
+比較各方式的差異性，並選擇合適的最佳化演算法
+*若一最佳化演算法的訓練過程跳動幅度非常大，則此最佳化適合用於變化幅度大的資料
+"""
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
