@@ -1,3 +1,8 @@
+"""
+brief intro.
+同OX_Show.py
+並將圖片轉換成特徵值，即將2D資料轉為1D數據
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 
