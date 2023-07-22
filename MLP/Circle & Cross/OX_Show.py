@@ -1,3 +1,7 @@
+"""
+brief intro.
+用3*3的矩陣存放圈(O)和叉(X)的圖形
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 
