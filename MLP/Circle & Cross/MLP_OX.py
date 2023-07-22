@@ -1,3 +1,8 @@
+"""
+brief intro.
+運用MLP模型的實戰範例
+訓練一個能夠辨識圈(O)和叉(X)圖形的模型
+"""
 import tensorflow as tf
 import numpy as np
 
