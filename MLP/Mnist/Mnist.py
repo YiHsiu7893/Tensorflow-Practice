@@ -31,7 +31,6 @@ y_test2 = tf.keras.utils.to_categorical(y_test, num_classes=category)
 model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Dense(units=10, activation='relu', input_dim=dim))
 model.add(tf.keras.layers.Dense(units=10, activation='relu'))
-kernel_initializer = 'normal'
 model.add(tf.keras.layers.Dense(units=category, activation='softmax'))
 #model.summary()  # 查看模型架構
 
