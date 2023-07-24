@@ -27,12 +27,14 @@ Y2 = tf.keras.utils.to_categorical(Y, num_classes=category)
 
 # 建立CNN模型
 model = tf.keras.models.Sequential()
+# 加入Conv2D層
 model.add(tf.keras.layers.Conv2D(filters=3,               # 一張變三張圖片
                                  kernel_size=(3, 3),      # 濾鏡大小3*3
                                  padding='same',          # 邊緣處理
                                  activation='relu',       # 激勵函式
                                  input_shape=(3, 3, 1)))  # 輸入每筆數據大小
-model.add(tf.keras.layers.Flatten())                      # 數據轉成1D
+# 加入Flatten層
+model.add(tf.keras.layers.Flatten())                      # 數據轉為1D
 model.add(tf.keras.layers.Dense(units=10, activation='relu'))
 model.add(tf.keras.layers.Dense(units=category, activation='softmax'))
 #model.summary()
