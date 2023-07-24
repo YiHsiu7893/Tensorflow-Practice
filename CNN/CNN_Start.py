@@ -30,7 +30,7 @@ model = tf.keras.models.Sequential()
 # 加入Conv2D層
 model.add(tf.keras.layers.Conv2D(filters=3,               # 一張變三張圖片
                                  kernel_size=(3, 3),      # 濾鏡大小3*3
-                                 padding='same',          # 邊緣處理
+                                 padding='same',          # 相同大小
                                  activation='relu',       # 激勵函式
                                  input_shape=(3, 3, 1)))  # 輸入每筆數據大小
 # 加入Flatten層
