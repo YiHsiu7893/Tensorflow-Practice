@@ -15,7 +15,7 @@ The codes are not the same as the samples in the book. I have modified a piece o
 2. preprocessing features and labels if needed
 3. building a MLP/CNN model  (load model/weights)
 4. compiling and training the model  (save model/weights)
-5. testing and evaluating the ability of the model
+5. evaluating the ability of the model
 6. predicting new data with the trained model
 
 ### approaches to improve accuracy of a model
