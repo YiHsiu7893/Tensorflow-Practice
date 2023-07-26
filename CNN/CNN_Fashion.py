@@ -3,6 +3,7 @@ brief intro.
 運用CNN模型的實戰範例
 載入Fashion_Mnist服飾資料集，並訓練一個能夠分辨服飾種類的模型
 訓練結合儲存模型權重的功能: 利用train_on_batch每隔20次儲存權重
+程式執行後會產生 fashion_mnist.json 和 fashion_mnist.h5 兩個檔案
 """
 import tensorflow as tf
 import numpy as np
