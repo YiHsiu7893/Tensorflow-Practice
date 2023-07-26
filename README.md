@@ -3,11 +3,13 @@ This is a collection of practice code developed throughout my self-learning expe
 
 Reference book: "TensorFlow 2.x人工智慧、機器學習超炫範例200+", published by 碁峰資訊, 2021
 
-The codes are not the same as the samples in the book. I have modified a piece of code according to my habits. ((and corrected some typos as well!
+The codes are not the same as the samples in the book. I have modified a piece of code according to my habits.
+
+(( and corrected some typos as well!
 
 ## Contents
 - MLP - basic MLP function exercises, and 3 practical cases: Iris Datasets, Circle & Cross, Mnist(including Fashion_Mnist)
-- CNN - 3 prectical cases: Circle & Cross(named "Start"), Mnist, Fashion_Mnist
+- CNN - 4 prectical cases: Circle & Cross(named "Start"), Mnist, Fashion_Mnist, Cifar10
 
 ## Notes
 ### steps of training a MLP/CNN model
