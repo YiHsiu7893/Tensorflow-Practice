@@ -19,11 +19,13 @@ The codes are not the same as the samples in the book. I have modified a piece o
 - MLP_Optimizer.py - apply different optimizers, comparing the accuracy history of each
 
 ## Notes
-### steps of training a MLP model
+### steps of training a MLP/CNN model
 1. collecting required data
-2. preprocessing features or labels if needed
-3. building a MLP model
+2. preprocessing features and labels if needed
+3. building a MLP/CNN model
+(load model/weights)
 4. compiling and training the model
+(save model/weights)
 5. testing and evaluating the ability of the model
 6. predicting new data with the trained model
 
